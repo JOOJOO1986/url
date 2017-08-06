@@ -28,7 +28,7 @@
 </head>
 <body class="easyui-layout">
 	<div data-options="region:'north'" style="height:40px;">
-		<jsp:include page="layout/north.jsp"></jsp:include>
+		<jsp:include page="layout/north.jsp">1</jsp:include>
 	</div>
 	<div data-options="region:'south'" style="height:20px;"></div>
 	<div data-options="region:'west'" style="width:200px;">
